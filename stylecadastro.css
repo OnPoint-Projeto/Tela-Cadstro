@@ -17,7 +17,7 @@ body{
   float: left; /*MANTEM ESSE CONTAINER NA ESQUERDA DA TELA E CANCELA QUEBRA DE LINHA AUTOMATICA*/
 
   position: fixed;
-  top: 75px;
+  top: 85px;
   left: 150px;
 
   height: 200px;
@@ -68,12 +68,13 @@ body{
     border-radius: 10px;
     border: 0.3px solid;
     background-color: white;
+    box-shadow: 0px 0px 18px 5px #424242;
     /*posição*/
     margin-top: 25px;
     margin-left: 110px;
   }
   .container .box-cadastro form button:hover{
-    box-shadow: inset -1px 3px 8px 5px #cccccc, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 0px 30px 5px #424242;
     cursor: pointer;
   }
 
@@ -81,7 +82,7 @@ body{
   .container .box-cadastro a{
     color: aqua;
     font-size: 18px;
-    margin-left: 170px; 
+    margin-left: 175px;
   }
   .container .box-cadastro a:hover{
     color: aquamarine;
